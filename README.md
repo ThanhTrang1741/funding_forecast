@@ -89,12 +89,6 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
 
 2.	After determining the total EB for the entire portfolio, forecast the EB for each product within it: 
 	Loan – offshore loan is pre-planned and have large values, so they are fixed
-|     No.    |     Amount     |     Currency    |     Drawdown      |     Tenor (month)    |     COF (estimated)    |                         Note    |
-|------------|----------------|-----------------|-------------------|----------------------|------------------------|---------------------------------|
-|     1      |     75         |     mio USD     |     30/12/2024    |     12M              |     6.5%               |     Can be rollover 12/2025     |
-|     2      |     75         |     mio USD     |     06/01/2025    |     12M              |     6.5%               |                                 |
-|     3      |     75         |     mio USD     |     15/02/2025    |     12M              |     6.5%               |                                 |
-
 	MM items will follow the plan to maintain 4.000 billion VND buffer, with a line of 27.000 billion VND
 	CD/D items will be calculated by subtracting the fixed items, such as loans and MM
 

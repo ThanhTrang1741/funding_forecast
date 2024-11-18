@@ -102,17 +102,17 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
   	
   	***create table name 'fp_estimate'***
   	
-       TRUNCATE TABLE FP_ESTIMATE;
+    TRUNCATE TABLE FP_ESTIMATE;
     COMMIT;
     
     INSERT INTO FP_ESTIMATE
     SELECT 
-        c.PRODUCT,
-        c.TENOR,
-        c.SEGMENT,
-        c.VND_AMT / 1e9 AS AMT_MIL,
-        c.TOTAL_AMT / 1e9 AS TOTAL_AMT,
-        c.VND_AMT / c.TOTAL_AMT AS RATE
+            c.PRODUCT,
+            c.TENOR,
+            c.SEGMENT,
+            c.VND_AMT / 1e9 AS AMT_MIL,
+            c.TOTAL_AMT / 1e9 AS TOTAL_AMT,
+            c.VND_AMT / c.TOTAL_AMT AS RATE
     FROM (
         SELECT 
             b.PRODUCT,

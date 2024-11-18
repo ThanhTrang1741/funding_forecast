@@ -58,7 +58,7 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
 
 1.	Based on the projected Ending Net Receivables (ENR) for lending in 2025 with two scenarios:
    
- - offshore loan can be rollover and new amount
+ - offshore loan can be rollover and new disbursment 8/2025
    
 |     No.    |     Amount     |     Currency    |     Drawdown      |     Tenor (month)    |     COF (estimated)    |                         Note    |
 |------------|----------------|-----------------|-------------------|----------------------|------------------------|---------------------------------|
@@ -67,7 +67,7 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
 |     2      |     75         |     mio USD     |     23/12/2015    |     12M              |     6.5%               |      rolled 12/2024           |
 |     3      |     75         |     mio USD     |     15/08/2025    |     12M              |     6.5%               |                                 |
  
- - offshore loan can not be rollover and no new amount
+ - offshore loan can not be rollover and no new disbursment
    
 |     No.    |     Amount     |     Currency    |     Drawdown      |     Tenor (month)    |     COF (estimated)    |                         Note    |
 |------------|----------------|-----------------|-------------------|----------------------|------------------------|---------------------------------|
@@ -80,11 +80,11 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
    
 --> forecast the new funding cash flows to achieve the lowest possible COF.
    
-•	Offshore loan can be rolled over:
+•	offshore loan can be rollover and new disbursment 8/2025:
 ![image](https://github.com/user-attachments/assets/69f0cc4a-3f6a-4fd8-9d9d-c32dd622af54)
 
 
-•	Offshore loan cannot be rolled over:
+•	offshore loan can not be rollover and no new disbursment:
 ![image](https://github.com/user-attachments/assets/5723a696-6f79-4ea0-bf7b-fd5bbf6165b7)
 
 2.	After determining the total EB for the entire portfolio, forecast the EB for each product within it: 
@@ -288,10 +288,10 @@ This will lead to a portfolio of new CDD to be added in 2025. The data should be
    **--->This will give us the complete portfolio for 2025**
 	
 9.	Finally, calculate the COF for the entire portfolio at the end of each month, along with the COF for the new items using SUMIFS or SUMPRODUCT in the ***'forecast' sheet***, in order to determine which scenario is the most feasible
-•	Offshore loan can be rolled over:
+•	offshore loan can be rollover and new disbursment 8/2025:
 ![image](https://github.com/user-attachments/assets/587b0e5e-6e10-4ca7-bbd1-c6bfa0f89a34)
 
-•	Offshore loan cannot be rolled over:
+•	offshore loan can not be rollover and no new disbursment:
 ![image](https://github.com/user-attachments/assets/d1be4acb-ec73-46ae-a95e-5c573333248c)
 
  ## **Key insight**

@@ -88,13 +88,18 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
 •	offshore loan can not be rollover and no new disbursment:
 ![image](https://github.com/user-attachments/assets/5723a696-6f79-4ea0-bf7b-fd5bbf6165b7)
 
-2.	After determining the total EB for the entire portfolio, forecast the EB for each product within it: 
-	Loan – offshore loan is pre-planned and have large values, so they are fixed
-	MM items will follow the plan to maintain 4.000 billion VND buffer, with a line of 27.000 billion VND
-	CD/D items will be calculated by subtracting the fixed items, such as loans and MM
+2.	After determining the total EB for the entire portfolio, forecast the EB for each product within it:
+   
+- Loan – offshore loan is pre-planned and have large values, so they are fixed
+  
+- MM items will follow the plan to maintain 4.000 billion VND buffer, with a line of 27.000 billion VND
+  
+- CD/D items will be calculated by subtracting the fixed items, such as loans and MM
+  
 
 3.	To calculate the details of the CD/D items and map them to the latest quoted interest rates,
    it is necessary to allocate the maturities based on historical data (The ratio based on the past 6 months).
+  	
   	***create table name 'fp_estimate'***
   	
        TRUNCATE TABLE FP_ESTIMATE;
@@ -222,7 +227,7 @@ From there, determine the total new amount for 2025 CD and D in excel file --(ch
 
 ***create table name 'fp_forecast_cdd'*** the total of new amount by month for 2025 CD and TD calculate by excel file above
  
-4.	After determining the total amount of new CD/D, allocate it according to the ratio based on the past 6 months of data.
+5.	After determining the total amount of new CD/D, allocate it according to the ratio based on the past 6 months of data.
 ***create table name 'fp_newCDD'***
 
 
@@ -280,15 +285,15 @@ This will lead to a portfolio of new CDD to be added in 2025. The data should be
  ![image](https://github.com/user-attachments/assets/3440808d-e5c8-4bf7-aecd-e6b863048d12)
 
 
-5.	Regarding the new MM transactions
+6.	Regarding the new MM transactions
     Since MM has the characteristic of receiving overnight deposits--> it is not possible to allocate maturities to calculate new items like CD/D.
   	--> we will continue to use the existing items from 2024 and predict that they will roll over, just to ensure the end-of-month balance is maintained at 23K
 ![image](https://github.com/user-attachments/assets/25c3f07d-a025-42b4-a563-c6dfee38aeb6)
 
-6.	Link all three new sheets—'new_CDD', 'new_MM', and 'new_offshore'—to the ***'2025' sheet***, which contains the entire 2024 portfolio.
+7.	Link all three new sheets—'new_CDD', 'new_MM', and 'new_offshore'—to the ***'2025' sheet***, which contains the entire 2024 portfolio.
    **--->This will give us the complete portfolio for 2025**
 	
-9.	Finally, calculate the COF for the entire portfolio at the end of each month, along with the COF for the new items using SUMIFS or SUMPRODUCT in the ***'forecast' sheet***, in order to determine which scenario is the most feasible
+8.	Finally, calculate the COF for the entire portfolio at the end of each month, along with the COF for the new items using SUMIFS or SUMPRODUCT in the ***'forecast' sheet***, in order to determine which scenario is the most feasible
 •	offshore loan can be rollover and new disbursment 8/2025:
 ![image](https://github.com/user-attachments/assets/587b0e5e-6e10-4ca7-bbd1-c6bfa0f89a34)
 
@@ -306,15 +311,15 @@ Additionally, securing new loans will further lower expenses by 5 billion VND, a
    
 This approach helps to build a detailed financial funding plan based on specific forecasts (ENR, interest rates, historical data, etc.). This allows the company to have a clear view of future cash flows and profitability.
 
-3.	Flexibility:
+2.	Flexibility:
    
 The method of allocating loans and funding products (MM, CD/D) can be adjusted flexibly depending on changes in the economic environment (e.g., interest rate changes, shifts in borrowing demand, etc.).
 
-5.	Optimization of COF (Cost of Funds):
+3.	Optimization of COF (Cost of Funds):
    
 By calculating and allocating funding across products with different interest rates, this method helps optimize the COF, thus reducing funding costs and improving the financial efficiency of the company.
 
-4 Combining Historical Data and Future Projections:
+4       Combining Historical Data and Future Projections:
 
 This approach combines historical data analysis with future projections, leading to more accurate and grounded estimates of loans and funding in the future.
 

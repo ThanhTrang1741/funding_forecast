@@ -6,6 +6,7 @@ Funding Forecasting for a Finance Company
 
 •	Purpose: to identify the optimal strategy for minimizing the Cost of Funds (COF) while ensuring sufficient liquidity and profitability. 
 By forecasting and strategically allocating funding across various products to determine the most cost-effective funding 
+
 •	Outcome: achieve the lowest possible Cost of Funds (COF).
 
 ## **Dataset:**

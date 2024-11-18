@@ -228,6 +228,7 @@ From there, determine the total new amount for 2025 CD and D in excel file --(ch
 ***create table name 'fp_forecast_cdd'*** the total of new amount by month for 2025 CD and TD calculate by excel file above
  
 5. After determining the total amount of new CD/D, allocate it according to the ratio based on the past 6 months of data.
+
 ***create table name 'fp_newCDD'***
 
     SELECT 

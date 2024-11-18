@@ -28,8 +28,6 @@ MM: A Money Market refers to a sector of the financial market where short-term b
 
 Offshore loan: An Offshore Loan refers to a loan that is obtained from a financial institution located outside of the borrower's home country
 
-***-	contract_no:*** Unique identifier for each contracts
-
 ***-	valid_date:*** Effective date of the contract
 
 ***-	maturity_date:*** Scheduled completion date of the contract

@@ -295,6 +295,7 @@ This will lead to a portfolio of new CDD to be added in 2025. The data should be
    **--->This will give us the complete portfolio for 2025**
 	
 8.	Finally, calculate the COF for the entire portfolio at the end of each month, along with the COF for the new items using SUMIFS or SUMPRODUCT in the ***'forecast' sheet***, in order to determine which scenario is the most feasible
+   
 •	offshore loan can be rollover and new disbursement 8/2025:
 ![image](https://github.com/user-attachments/assets/587b0e5e-6e10-4ca7-bbd1-c6bfa0f89a34)
 
@@ -320,7 +321,7 @@ The method of allocating loans and funding products (MM, CD/D) can be adjusted f
    
 By calculating and allocating funding across products with different interest rates, this method helps optimize the COF, thus reducing funding costs and improving the financial efficiency of the company.
 
-4       Combining Historical Data and Future Projections:
+4.      Combining Historical Data and Future Projections:
 
 This approach combines historical data analysis with future projections, leading to more accurate and grounded estimates of loans and funding in the future.
 

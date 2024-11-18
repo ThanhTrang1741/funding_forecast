@@ -1,4 +1,4 @@
-# **funding_forecast**
+# **FUNDING FORECAST**
 
 Funding Forecasting for a Finance Company
 

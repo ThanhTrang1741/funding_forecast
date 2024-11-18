@@ -10,6 +10,7 @@ By forecasting and strategically allocating funding across various products to d
 
 ## **Dataset:**
 Source: Company’s internal funding database, with 2 table name in mySQL (database name: funding_plan)
+
 ![image](https://github.com/user-attachments/assets/6fe114d6-fc12-46a0-a3a3-a026bcd3aedc)
 
 ***1.  data:***  The dataset includes historical new funding transactions from 1/1/2024 to 31/10/2024
@@ -38,9 +39,9 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
 
 ***-	interest_rate:*** Stipulated interest rate applicable to the contract, payable at maturity
 
-***-	Segment:*** The segmentation associated with the contract
+***-	segment:*** The segmentation associated with the contract
 
-***-	Cus_no:*** Unique identifier for each contract holder
+***-	cus_no:*** Unique identifier for each contract holder
 
 
 

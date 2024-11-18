@@ -80,7 +80,8 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
 --> forecast the new funding cash flows to achieve the lowest possible COF.
    
 •	offshore loan can be rollover and new disbursement 8/2025:
-![image](https://github.com/user-attachments/assets/69f0cc4a-3f6a-4fd8-9d9d-c32dd622af54)
+![image](https://github.com/user-attachments/assets/5f29eeba-53d3-4887-a82f-3410c4c7742d)
+
 
 
 •	offshore loan can not be rollover and no new disbursement:

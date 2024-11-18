@@ -321,7 +321,7 @@ The method of allocating loans and funding products (MM, CD/D) can be adjusted f
    
 By calculating and allocating funding across products with different interest rates, this method helps optimize the COF, thus reducing funding costs and improving the financial efficiency of the company.
 
-4.      Combining Historical Data and Future Projections:
+4.	Combining Historical Data and Future Projections:
 
 This approach combines historical data analysis with future projections, leading to more accurate and grounded estimates of loans and funding in the future.
 

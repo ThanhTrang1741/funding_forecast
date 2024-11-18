@@ -58,14 +58,27 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
 
 1.	Based on the projected Ending Net Receivables (ENR) for lending in 2025 with two scenarios:
    
- - offshore loan can be rollover
- - offshore loan can not be rollover
+ - offshore loan can be rollover and new amount
    
- --> determine the reasonable Ending Balance (EB) for funding
+|     No.    |     Amount     |     Currency    |     Drawdown      |     Tenor (month)    |     COF (estimated)    |                         Note    |
+|------------|----------------|-----------------|-------------------|----------------------|------------------------|---------------------------------|
+|            |     75         |     mio USD     |     23/12/2024    |     12M              |     6.5%               |                                 |
+|     1      |     75         |     mio USD     |     06/01/2025    |     12M              |     6.5%               |                                 |
+|     2      |     75         |     mio USD     |     23/12/2015    |     12M              |     6.5%               |      rolled 12/2024           |
+|     3      |     75         |     mio USD     |     15/08/2025    |     12M              |     6.5%               |                                 |
+ 
+ - offshore loan can not be rollover and no new amount
    
-   --> and allocate it across products with different deposit interest rates.
+|     No.    |     Amount     |     Currency    |     Drawdown      |     Tenor (month)    |     COF (estimated)    |                         Note    |
+|------------|----------------|-----------------|-------------------|----------------------|------------------------|---------------------------------|
+|     0      |     75         |     mio USD     |     30/12/2024    |     12M              |     6.5%               |     Can not rollover 12/2025    |
+|     1      |     75         |     mio USD     |     06/01/2025    |     12M              |     6.5%               |                                 |
+
+--> determine the reasonable Ending Balance (EB) for funding
    
-     --> forecast the new funding cash flows to achieve the lowest possible COF.
+--> and allocate it across products with different deposit interest rates.
+   
+--> forecast the new funding cash flows to achieve the lowest possible COF.
    
 •	Offshore loan can be rolled over:
 ![image](https://github.com/user-attachments/assets/69f0cc4a-3f6a-4fd8-9d9d-c32dd622af54)

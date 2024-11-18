@@ -64,8 +64,8 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
 |------------|----------------|-----------------|-------------------|----------------------|------------------------|---------------------------------|
 |            |     75         |     mio USD     |     23/12/2024    |     12M              |     6.5%               |                                 |
 |     1      |     75         |     mio USD     |     06/01/2025    |     12M              |     6.5%               |                                 |
-|     2      |     75         |     mio USD     |     23/12/2015    |     12M              |     6.5%               |      rolled 12/2024           |
-|     3      |     75         |     mio USD     |     15/08/2025    |     12M              |     6.5%               |                                 |
+|     2      |     75         |     mio USD     |     23/12/2015    |     12M              |     6.5%               |      rolled 12/2024             |
+|     3      |     75         |     mio USD     |     15/08/2025    |     12M              |     6.5%               |       new disbursment           |
  
  - offshore loan can not be rollover and no new disbursment
    

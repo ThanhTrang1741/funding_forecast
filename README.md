@@ -100,8 +100,8 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
 3.	To calculate the details of the CD/D items and map them to the latest quoted interest rates,
    it is necessary to allocate the maturities based on historical data (The ratio based on the past 6 months).
   	
-  	***create table name 'fp_estimate'***
-  	
+***create table name 'fp_estimate'***
+
     TRUNCATE TABLE FP_ESTIMATE;
     COMMIT;
     
@@ -187,9 +187,9 @@ Offshore loan: An Offshore Loan refers to a loan that is obtained from a financi
 
 4. Based on the portfolio in 2024 already includes the attrition  of CD/D for the year 2024
 
-   Based on the EB forecast for the next year of CD/D.
+Based on the EB forecast for the next year of CD/D.
 
-   Group by tenor of table fp_estimate:
+Group by tenor of table fp_estimate:
 
     SELECT 
         tenor
@@ -230,8 +230,7 @@ From there, determine the total new amount for 2025 CD and D in excel file --(ch
 5.	After determining the total amount of new CD/D, allocate it according to the ratio based on the past 6 months of data.
 ***create table name 'fp_newCDD'***
 
-
-      SELECT 
+    SELECT 
         d.product, 
         d.contract_no, 
         d.value_date, 

@@ -230,6 +230,7 @@ From there, determine the total new amount for 2025 CD and D in excel file --(ch
 5.	After determining the total amount of new CD/D, allocate it according to the ratio based on the past 6 months of data.
 ***create table name 'fp_newCDD'***
 
+
     SELECT 
         d.product, 
         d.contract_no, 
